@@ -56,10 +56,10 @@ ADD_EDGE 1 2
 
 The weight of an edge is calculated from the coordinates of its two endpoints using the Euclidean distance:
 
-[
+$$
 d(u,v) =
-\sqrt{(x_u-x_v)^2 + (y_u-y_v)^2}.
-]
+\sqrt{(x_u-x_v)^2 + (y_u-y_v)^2}
+$$
 
 This allows the graph to represent both its topology and geometric information.
 
